@@ -1,190 +1,305 @@
-# Gaokao Data Collector - 高考信息采集与清洗工具库
+# 高考数据采集与清洗系统
 
-## English Description
-```markdown
-# Gaokao Data Collector
+一个用于采集、清洗和整理高考相关数据的Python系统，支持从阳光高考平台、省级考试院等多个数据源获取数据。
 
-**Automated toolkit for collecting and processing China's college entrance examination (Gaokao) data**
+## 功能特性
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+- **多源数据采集**: 支持阳光高考平台、省级考试院、第三方数据集
+- **智能数据清洗**: 自动标准化院校/专业名称、处理缺失值、验证数据质量
+- **灵活数据输出**: 支持JSON、CSV、Excel等多种格式
+- **完整日志记录**: 详细的操作日志和错误追踪
+- **数据质量报告**: 自动生成数据质量分析报告
+- **模块化设计**: 清晰的代码结构，易于扩展和维护
 
-## Overview
-Gaokao Data Collector is a modular Python toolkit designed for automated collection, cleaning, and structuring of China's college entrance examination data. It systematically gathers information from official sources including:
-- Ministry of Education's Yangguang Gaokao Platform
-- Provincial education examination authorities
-- Third-party open datasets
+## 项目结构
 
-The processed data includes university profiles, major information, historical admission scores, admission rules, and provincial cutoff rankings - formatted for easy integration with analytics pipelines.
+```
+Gaokao-Data-Crawler/
+├── main.py                 # 主调度程序
+├── config.py              # 全局配置
+├── requirements.txt       # 依赖包列表
+├── test_crawler.py        # 测试脚本
+├── start.sh              # 启动脚本
+├── README.md             # 项目说明
+├── crawlers/             # 爬虫模块
+│   ├── __init__.py
+│   ├── yangguang.py      # 阳光高考平台爬虫
+│   └── provincial.py     # 省级考试院爬虫
+├── data_processing/      # 数据处理模块
+│   ├── __init__.py
+│   ├── cleaner.py        # 数据清洗
+│   └── converter.py      # 格式转换
+├── utils/                # 工具包
+│   ├── __init__.py
+│   ├── io_tools.py       # 文件读写
+│   └── log.py           # 日志管理
+├── data/                 # 数据存储目录
+│   ├── raw/             # 原始数据
+│   ├── cleaned/         # 清洗后数据
+│   └── final/           # 最终数据
+├── logs/                # 日志文件
+├── downloads/           # 下载文件
+└── venv/               # Python虚拟环境
+```
 
-## Key Features
-- 🕷️ **Multi-source Collection**
-  - Unified crawlers for Yangguang Gaokao and provincial portals
-  - PDF/OCR processing for admission rules documents
-  - Third-party dataset integration
-  
-- 🧹 **Intelligent Data Processing**
-  - Name standardization and missing value handling
-  - Cross-source data merging with conflict resolution
-  - Automated data validation rules
+## 安装指南
 
-- 📊 **Structured Output**
-  - JSON/CSV formats with consistent schema
-  - Source tracking and quality indicators
-  - Data lineage documentation
+### 方法一：使用启动脚本（推荐）
 
-- ⚙️ **Production-ready**
-  - Anti-crawling countermeasures (proxies, throttling)
-  - Error recovery and fallback mechanisms
-  - Logging and data quality reports
-
-## Quick Start
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# 克隆项目
+git clone https://github.com/your-username/Gaokao-Data-Crawler.git
+cd Gaokao-Data-Crawler
 
-# Run collection pipeline
-python main.py --provinces beijing shanghai --years 2021 2022
+# 运行启动脚本（会自动创建虚拟环境并安装依赖）
+./start.sh
 ```
 
-## Data Schema
-```json
-{
-  "university": "Tsinghua University",
-  "major": "Computer Science",
-  "province": "Beijing",
-  "year": 2023,
-  "min_score": 698,
-  "min_rank": 368,
-  "plan_count": 15,
-  "requirements": "Math ≥ 140",
-  "sources": ["Yangguang", "Beijing Exam Authority"]
-}
-```
+### 方法二：手动安装
 
-## Architecture
-```
-gaokao-collector/
-├── crawlers/          # Data collection modules
-├── data_processing/   # Cleaning and transformation
-├── utils/             # I/O and logging tools
-├── config.py          # Central configuration
-└── main.py            # Execution pipeline
-```
+#### 1. 克隆项目
 
-## Contributing
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
-- Adding new provincial crawlers
-- Improving data cleaning logic
-- Enhancing documentation
-
-## License
-This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
-```
-
-## 中文描述
-```markdown
-# 高考数据采集工具库
-
-**自动化采集与处理中国高考数据的工具集**
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
-
-## 概述
-高考数据采集工具库是一个模块化的Python工具集，用于自动化采集、处理和结构化中国高考数据。系统化获取以下官方数据源：
-- 教育部阳光高考平台
-- 省级教育考试院网站
-- 第三方开放数据集
-
-## 核心功能
-- 🕷️ **多源采集**
-  - 阳光高考平台与省级入口的统一爬虫
-  - 招生章程PDF文档解析（OCR支持）
-  - 第三方数据集集成接口
-  
-- 🧹 **智能数据清洗**
-  - 名称标准化与缺失值处理
-  - 多源数据合并与冲突解决
-  - 自动化数据校验规则
-
-- 📊 **结构化输出**
-  - JSON/CSV标准化格式
-  - 数据来源追溯与质量标识
-  - 数据血缘关系文档
-
-- ⚙️ **生产级设计**
-  - 反爬虫应对策略（代理池、请求控制）
-  - 错误恢复与备用数据源机制
-  - 日志记录与数据质量报告
-
-## 快速开始
 ```bash
-# 安装依赖
+git clone https://github.com/your-username/Gaokao-Data-Crawler.git
+cd Gaokao-Data-Crawler
+```
+
+#### 2. 创建虚拟环境
+
+```bash
+# 创建虚拟环境
+python3 -m venv venv
+
+# 激活虚拟环境
+# macOS/Linux:
+source venv/bin/activate
+# Windows:
+# venv\Scripts\activate
+```
+
+#### 3. 安装依赖
+
+```bash
 pip install -r requirements.txt
-
-# 运行采集流程
-python main.py --provinces beijing shanghai --years 2021 2022
 ```
 
-## 数据结构
+#### 4. 创建必要目录
+
+```bash
+mkdir -p data/raw data/cleaned data/final logs downloads
+```
+
+## 使用方法
+
+### 1. 激活虚拟环境
+
+每次使用前都需要激活虚拟环境：
+
+```bash
+source venv/bin/activate  # macOS/Linux
+# 或
+# venv\Scripts\activate   # Windows
+```
+
+### 2. 运行测试
+
+首先运行测试脚本验证系统是否正常工作：
+
+```bash
+python test_crawler.py
+```
+
+### 3. 配置参数
+
+编辑 `config.py` 文件，根据需要调整以下参数：
+
+- `PROVINCES`: 目标省份列表
+- `YEARS`: 爬取年份范围
+- `YANGGUANG_BASE_URL`: 阳光高考平台URL
+- 数据存储路径和日志路径
+
+### 4. 运行主程序
+
+```bash
+python main.py
+```
+
+程序将自动执行以下步骤：
+1. 爬取阳光高考平台数据（院校、专业、分数线、招生章程）
+2. 爬取省级考试院数据
+3. 加载第三方数据集
+4. 清洗和合并数据
+5. 生成数据质量报告
+6. 保存最终数据
+
+## 数据输出格式
+
+### 最终数据格式（JSON）
+
 ```json
-{
-  "高校": "清华大学",
-  "专业": "计算机科学与技术",
-  "省份": "北京",
-  "年份": 2023,
-  "最低分": 698,
-  "最低位次": 368,
-  "招生人数": 15,
-  "特殊要求": "数学≥140分",
-  "数据来源": ["阳光高考", "北京考试院"]
-}
+[
+  {
+    "school": "清华大学",
+    "major": "计算机类",
+    "province": "北京",
+    "year": 2023,
+    "min_score": 698,
+    "min_rank": 368,
+    "plan_count": 15,
+    "employment": "IT企业/科研机构",
+    "missing_years": [2020],
+    "data_source": ["阳光高考", "北京考试院"]
+  }
+]
 ```
 
-## 系统架构
+### 数据质量报告
+
+系统会自动生成包含以下内容的数据质量报告：
+- 数据完整性统计
+- 缺失值分析
+- 重复数据检查
+- 数值范围验证
+- 数据源统计
+
+## 模块说明
+
+### 爬虫模块 (`crawlers/`)
+
+- **yangguang.py**: 阳光高考平台爬虫
+  - `crawl_schools()`: 爬取院校库
+  - `crawl_majors()`: 爬取专业库
+  - `crawl_scores()`: 爬取历年分数线
+  - `crawl_admission_rules()`: 爬取招生章程
+
+- **provincial.py**: 省级考试院爬虫
+  - `crawl_provincial_scores()`: 爬取省级分数线
+  - `load_github_dataset()`: 加载第三方数据集
+
+### 数据处理模块 (`data_processing/`)
+
+- **cleaner.py**: 数据清洗
+  - `standardize_names()`: 标准化名称
+  - `handle_missing_values()`: 处理缺失值
+  - `merge_datasets()`: 合并数据集
+  - `validate_data()`: 数据验证
+
+- **converter.py**: 格式转换
+  - `pdf_to_text()`: PDF转文本
+  - `save_structured_data()`: 保存结构化数据
+  - `generate_data_report()`: 生成数据报告
+
+### 工具模块 (`utils/`)
+
+- **io_tools.py**: 文件操作工具
+- **log.py**: 日志管理
+
+## 配置说明
+
+### 主要配置项
+
+```python
+# 目标省份
+PROVINCES = ["北京", "上海", "广东", "浙江", "江苏", "山东", "河南", "四川", "湖北", "湖南"]
+
+# 爬取年份
+YEARS = [2020, 2021, 2022, 2023]
+
+# 数据存储路径
+RAW_DATA_PATH = "data/raw"
+CLEANED_DATA_PATH = "data/cleaned"
+FINAL_DATA_PATH = "data/final"
+
+# 日志文件路径
+LOG_FILE_PATH = "logs/crawler.log"
 ```
-高考数据采集库/
-├── 爬虫模块/          # 数据采集组件
-├── 数据处理/         # 清洗转换逻辑
-├── 工具集/           # 文件操作与日志
-├── 配置中心.py       # 全局配置管理
-└── 主程序.py         # 执行入口
+
+## 常见问题解决
+
+### 1. 依赖包安装失败
+
+**问题**: `ModuleNotFoundError: No module named 'bs4'`
+
+**解决方案**:
+```bash
+# 确保在虚拟环境中
+source venv/bin/activate
+
+# 重新安装依赖
+pip install -r requirements.txt
 ```
 
-## 参与贡献
-欢迎贡献代码！请参阅[贡献指南](CONTRIBUTING.md)了解：
-- 添加省级考试院爬虫
-- 改进数据清洗逻辑
-- 完善文档说明
+### 2. 虚拟环境问题
 
-## 开源协议
-本项目采用MIT许可证 - 详见[协议文件](LICENSE)
+**问题**: `externally-managed-environment` 错误
+
+**解决方案**:
+```bash
+# 使用虚拟环境（推荐）
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
-## 关键特点亮点
+### 3. 权限问题
 
-1. **双语一致性**  
-   - 技术术语保持中英文准确对应（如crawlers=爬虫模块）
-   - 功能描述采用相同逻辑结构
-   - 代码示例保持统一
+**问题**: 无法执行启动脚本
 
-2. **突出核心价值**  
-   - 强调**多源数据整合**能力（阳光高考+省级平台+第三方）
-   - 展示**结构化输出**示例（JSON schema）
-   - 说明**生产级特性**（反爬措施/错误恢复）
+**解决方案**:
+```bash
+chmod +x start.sh
+./start.sh
+```
 
-3. **开发者友好设计**
-   - 清晰的架构目录树
-   - 即用型代码示例
-   - 贡献指引与开源协议
+## 注意事项
 
-4. **视觉化元素**
-   - 状态徽章（Python版本/许可协议）
-   - 表情图标增强可读性
-   - 结构化数据展示
+1. **反爬虫策略**: 系统已内置随机User-Agent、请求延迟等反爬虫措施
+2. **数据准确性**: 建议在使用前验证爬取数据的准确性
+3. **法律合规**: 请确保遵守相关网站的使用条款和法律法规
+4. **资源消耗**: 大规模爬取可能消耗较多网络和存储资源
+5. **虚拟环境**: 始终在虚拟环境中运行，避免依赖冲突
 
-建议在GitHub仓库中采用：
-1. `README.md` - 英文主文档
-2. `README_ZH.md` - 中文文档
-3. 添加`.github`目录包含贡献指南和Issue模板
+## 故障排除
+
+### 常见问题
+
+1. **网络连接失败**
+   - 检查网络连接
+   - 确认目标网站可访问
+   - 调整请求超时时间
+
+2. **数据解析错误**
+   - 检查网站页面结构是否发生变化
+   - 更新CSS选择器
+   - 查看日志文件获取详细错误信息
+
+3. **依赖包安装失败**
+   - 使用虚拟环境
+   - 更新pip版本
+   - 检查Python版本兼容性
+
+### 日志查看
+
+查看详细日志信息：
+
+```bash
+tail -f logs/crawler.log
+```
+
+## 贡献指南
+
+欢迎提交Issue和Pull Request来改进项目。
+
+## 许可证
+
+本项目采用MIT许可证，详见LICENSE文件。
+
+## 联系方式
+
+如有问题或建议，请通过以下方式联系：
+- 提交GitHub Issue
+- 发送邮件至：[your-email@example.com]
+
+---
+
+**免责声明**: 本工具仅供学习和研究使用，使用者需自行承担使用风险，并确保遵守相关法律法规。
