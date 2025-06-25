@@ -3150,3 +3150,10 @@
   ('zipimport',
    '/opt/homebrew/Cellar/python@3.13/3.13.4/Frameworks/Python.framework/Versions/3.13/lib/python3.13/zipimport.py',
    'PYMODULE')])
+
+import os
+
+# 桌面路径
+DESKTOP_PATH = os.path.join(os.path.expanduser("~"), "Desktop")
+# 输出文件夹
+OUTPUT_DIR = os.path.join(DESKTOP_PATH, "GaokaoDataOutput")

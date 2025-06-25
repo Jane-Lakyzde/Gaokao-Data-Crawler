@@ -1,0 +1,74 @@
+[
+    {
+        "school_id": 2,
+        "rules": {
+            "body_check": "",
+            "subject_scores": "",
+            "bonus_policies": ""
+        }
+    },
+    {
+        "school_id": 3,
+        "rules": {
+            "body_check": "",
+            "subject_scores": "",
+            "bonus_policies": ""
+        }
+    },
+    {
+        "school_id": 4,
+        "rules": {
+            "body_check": "",
+            "subject_scores": "",
+            "bonus_policies": ""
+        }
+    },
+    {
+        "school_id": 5,
+        "rules": {
+            "body_check": "",
+            "subject_scores": "",
+            "bonus_policies": ""
+        }
+    },
+    {
+        "school_id": 6,
+        "rules": {
+            "body_check": "",
+            "subject_scores": "",
+            "bonus_policies": ""
+        }
+    },
+    {
+        "school_id": 7,
+        "rules": {
+            "body_check": "",
+            "subject_scores": "",
+            "bonus_policies": ""
+        }
+    },
+    {
+        "school_id": 8,
+        "rules": {
+            "body_check": "",
+            "subject_scores": "",
+            "bonus_policies": ""
+        }
+    },
+    {
+        "school_id": 9,
+        "rules": {
+            "body_check": "",
+            "subject_scores": "",
+            "bonus_policies": ""
+        }
+    },
+    {
+        "school_id": 10,
+        "rules": {
+            "body_check": "",
+            "subject_scores": "",
+            "bonus_policies": ""
+        }
+    }
+]

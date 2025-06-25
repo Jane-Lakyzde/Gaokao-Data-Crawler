@@ -17,52 +17,57 @@ def get_random_ua():
 
 def crawl_schools():
     """
-    院校库爬取：院校名称/所在地/层次/类型
-    分页爬取 https://gaokao.chsi.com.cn/sch/
-    使用 requests + BeautifulSoup 解析HTML
+    院校库爬取：院校名称、详情页URL、所在地、主管部门、院校类型、学历层次、满意度
+    分页爬取 https://gaokao.chsi.com.cn/sch/search.do?searchType=1&start=0
     """
     log_info("开始爬取阳光高考院校库...")
-    url = f"{YANGGUANG_BASE_URL}/sch/"
+    base_url = f"{YANGGUANG_BASE_URL}/sch/search.do"
     schools = []
-    
-    try:
-        for page in range(1, 11):  # 爬取前10页
-            params = {"start": (page-1)*20}
-            headers = {"User-Agent": get_random_ua()}
-            
-            log_info(f"正在爬取第 {page} 页院校数据...")
-            resp = requests.get(url, params=params, headers=headers, timeout=10)
+    start = 0
+    while True:
+        params = {"searchType": 1, "start": start}
+        headers = {"User-Agent": get_random_ua()}
+        try:
+            log_info(f"正在爬取第 {start//20+1} 页院校数据...")
+            resp = requests.get(base_url, params=params, headers=headers, timeout=10)
             resp.raise_for_status()
-            
             soup = BeautifulSoup(resp.text, "html.parser")
-            school_items = soup.select(".sch-info-item")
-            
-            if not school_items:
-                log_info(f"第 {page} 页未找到院校数据，可能已到达最后一页")
+            table = soup.find("table", class_="ch-table")
+            if not table:
+                log_info(f"第 {start//20+1} 页未找到院校数据，可能已到达最后一页")
                 break
-                
-            for item in school_items:
-                try:
-                    school = {
-                        "name": item.select_one(".sch-name").text.strip() if item.select_one(".sch-name") else "",
-                        "location": item.select_one(".sch-location").text.strip() if item.select_one(".sch-location") else "",
-                        "level": item.select_one(".sch-type").text.strip() if item.select_one(".sch-type") else "",
-                        "category": item.select_one(".sch-nature").text.strip() if item.select_one(".sch-nature") else ""
-                    }
-                    schools.append(school)
-                except Exception as e:
-                    log_error(f"解析院校数据时出错: {str(e)}")
+            rows = table.find_all("tr")[1:]  # 跳过表头
+            if not rows:
+                log_info(f"第 {start//20+1} 页无数据，结束爬取")
+                break
+            for row in rows:
+                cols = row.find_all("td")
+                if len(cols) < 7:
                     continue
-            
-            # 随机延迟3-5秒
-            time.sleep(random.randint(3, 5))
-            
-        log_info(f"院校库爬取完成，共获取 {len(schools)} 所院校信息")
-        return schools
-        
-    except Exception as e:
-        log_error(f"爬取院校库时发生错误: {str(e)}")
-        return []
+                name_tag = cols[0].find("a")
+                school_name = name_tag.text.strip() if name_tag else ""
+                detail_url = f"https://gaokao.chsi.com.cn" + name_tag["href"] if name_tag else ""
+                location = cols[1].text.strip()
+                department = cols[2].text.strip()
+                school_type = cols[3].text.strip()
+                level = cols[4].text.strip()
+                satisfaction = cols[5].text.strip()
+                schools.append({
+                    "院校名称": school_name,
+                    "详情页": detail_url,
+                    "所在地": location,
+                    "主管部门": department,
+                    "院校类型": school_type,
+                    "学历层次": level,
+                    "满意度": satisfaction
+                })
+            start += 20
+            time.sleep(random.uniform(1, 2))
+        except Exception as e:
+            log_error(f"爬取第 {start//20+1} 页院校数据时出错: {str(e)}")
+            break
+    log_info(f"院校库爬取完成，共获取 {len(schools)} 所院校信息")
+    return schools
 
 def crawl_majors():
     """
