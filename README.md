@@ -10,16 +10,22 @@
 - **完整日志记录**: 详细的操作日志和错误追踪
 - **数据质量报告**: 自动生成数据质量分析报告
 - **模块化设计**: 清晰的代码结构，易于扩展和维护
+- **跨平台支持**: 支持Windows、macOS、Linux系统
+- **可执行文件**: 提供打包好的exe文件，无需安装Python环境
 
 ## 项目结构
 
 ```
 Gaokao-Data-Crawler/
 ├── main.py                 # 主调度程序
+├── gui_main.py            # GUI界面程序
 ├── config.py              # 全局配置
 ├── requirements.txt       # 依赖包列表
 ├── test_crawler.py        # 测试脚本
 ├── start.sh              # 启动脚本
+├── build_exe.py          # 通用打包脚本
+├── build_windows_exe.py  # Windows专用打包脚本
+├── build_exe.spec        # PyInstaller配置文件
 ├── README.md             # 项目说明
 ├── crawlers/             # 爬虫模块
 │   ├── __init__.py
@@ -39,12 +45,29 @@ Gaokao-Data-Crawler/
 │   └── final/           # 最终数据
 ├── logs/                # 日志文件
 ├── downloads/           # 下载文件
+├── dist/                # 打包后的可执行文件
+│   ├── 高考数据采集系统.exe      # 可执行文件
+│   ├── 启动程序.sh              # 启动脚本
+│   └── README.md               # 说明文档
 └── venv/               # Python虚拟环境
 ```
 
 ## 安装指南
 
-### 方法一：使用启动脚本（推荐）
+### 方法一：使用可执行文件（推荐用于最终用户）
+
+#### Windows用户
+1. 下载Windows版本的可执行文件包
+2. 解压到任意目录
+3. 运行`安装程序.bat`进行安装
+4. 使用桌面快捷方式启动程序
+
+#### macOS/Linux用户
+1. 下载对应系统的可执行文件包
+2. 解压到任意目录
+3. 运行`./启动程序.sh`启动程序
+
+### 方法二：使用启动脚本（推荐用于开发者）
 
 ```bash
 # 克隆项目
@@ -55,7 +78,7 @@ cd Gaokao-Data-Crawler
 ./start.sh
 ```
 
-### 方法二：手动安装
+### 方法三：手动安装
 
 #### 1. 克隆项目
 
@@ -91,7 +114,33 @@ mkdir -p data/raw data/cleaned data/final logs downloads
 
 ## 使用方法
 
-### 1. 激活虚拟环境
+### 可执行文件版本
+
+#### Windows
+```bash
+# 命令行版本
+高考数据采集系统_CLI.exe
+
+# GUI版本
+高考数据采集系统_GUI.exe
+
+# 或使用启动脚本
+启动命令行版本.bat
+启动GUI版本.bat
+```
+
+#### macOS/Linux
+```bash
+# 直接运行可执行文件
+./高考数据采集系统
+
+# 或使用启动脚本
+./启动程序.sh
+```
+
+### Python版本
+
+#### 1. 激活虚拟环境
 
 每次使用前都需要激活虚拟环境：
 
@@ -101,7 +150,7 @@ source venv/bin/activate  # macOS/Linux
 # venv\Scripts\activate   # Windows
 ```
 
-### 2. 运行测试
+#### 2. 运行测试
 
 首先运行测试脚本验证系统是否正常工作：
 
@@ -109,7 +158,7 @@ source venv/bin/activate  # macOS/Linux
 python test_crawler.py
 ```
 
-### 3. 配置参数
+#### 3. 配置参数
 
 编辑 `config.py` 文件，根据需要调整以下参数：
 
@@ -118,10 +167,14 @@ python test_crawler.py
 - `YANGGUANG_BASE_URL`: 阳光高考平台URL
 - 数据存储路径和日志路径
 
-### 4. 运行主程序
+#### 4. 运行主程序
 
 ```bash
+# 命令行版本
 python main.py
+
+# GUI版本
+python gui_main.py
 ```
 
 程序将自动执行以下步骤：
@@ -214,6 +267,43 @@ FINAL_DATA_PATH = "data/final"
 LOG_FILE_PATH = "logs/crawler.log"
 ```
 
+## 打包为可执行文件
+
+### 通用打包（支持所有平台）
+
+```bash
+# 运行通用打包脚本
+python build_exe.py
+```
+
+### Windows专用打包（包含GUI支持）
+
+```bash
+# 运行Windows专用打包脚本
+python build_windows_exe.py
+```
+
+### 打包选项
+
+1. **命令行版本**：适合服务器部署和自动化运行
+2. **GUI版本**：适合普通用户使用，提供图形界面
+3. **安装程序**：Windows版本包含自动安装脚本
+
+### 打包后的文件结构
+
+```
+dist/
+├── 高考数据采集系统.exe          # 可执行文件（macOS/Linux）
+├── 高考数据采集系统_GUI.exe      # GUI版本（Windows）
+├── 高考数据采集系统_CLI.exe      # CLI版本（Windows）
+├── 启动程序.sh                   # 启动脚本（macOS/Linux）
+├── 启动GUI版本.bat              # GUI启动脚本（Windows）
+├── 启动命令行版本.bat           # CLI启动脚本（Windows）
+├── 安装程序.bat                 # 安装脚本（Windows）
+├── README.md                   # 说明文档
+└── requirements.txt            # 依赖列表
+```
+
 ## 常见问题解决
 
 ### 1. 依赖包安装失败
@@ -251,6 +341,25 @@ chmod +x start.sh
 ./start.sh
 ```
 
+### 4. 可执行文件无法运行
+
+**问题**: exe文件无法启动
+
+**解决方案**:
+- 确保系统架构匹配（32位/64位）
+- 检查杀毒软件是否拦截
+- 尝试以管理员身份运行
+- 确保所有依赖文件都在同一目录
+
+### 5. GUI界面无法显示
+
+**问题**: GUI程序启动但界面不显示
+
+**解决方案**:
+- 检查系统是否支持GUI
+- 在Windows上尝试使用CLI版本
+- 检查显示器设置
+
 ## 注意事项
 
 1. **反爬虫策略**: 系统已内置随机User-Agent、请求延迟等反爬虫措施
@@ -258,6 +367,7 @@ chmod +x start.sh
 3. **法律合规**: 请确保遵守相关网站的使用条款和法律法规
 4. **资源消耗**: 大规模爬取可能消耗较多网络和存储资源
 5. **虚拟环境**: 始终在虚拟环境中运行，避免依赖冲突
+6. **可执行文件**: 打包后的exe文件较大，包含所有依赖，无需额外安装
 
 ## 故障排除
 
@@ -277,6 +387,11 @@ chmod +x start.sh
    - 使用虚拟环境
    - 更新pip版本
    - 检查Python版本兼容性
+
+4. **打包失败**
+   - 确保PyInstaller已正确安装
+   - 检查所有依赖包都已安装
+   - 查看打包日志获取错误信息
 
 ### 日志查看
 

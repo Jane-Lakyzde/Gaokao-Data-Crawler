@@ -1,0 +1,1658 @@
+2025-06-25 13:26:01,079 - INFO - ==================================================
+2025-06-25 13:26:01,079 - INFO - 高考数据采集与清洗流程启动
+2025-06-25 13:26:01,079 - INFO - ==================================================
+2025-06-25 13:26:01,080 - INFO - 【阶段1】开始爬取原始数据...
+2025-06-25 13:26:01,080 - INFO - 启动阳光高考平台数据爬取...
+2025-06-25 13:26:01,080 - INFO - 开始爬取院校库...
+2025-06-25 13:26:01,080 - INFO - 开始爬取阳光高考院校库...
+2025-06-25 13:26:01,080 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:01,080 - INFO - 正在爬取第 1 页院校数据...
+2025-06-25 13:26:01,430 - INFO - 第 1 页未找到院校数据，可能已到达最后一页
+2025-06-25 13:26:01,430 - INFO - 院校库爬取完成，共获取 0 所院校信息
+2025-06-25 13:26:01,431 - INFO - 开始爬取专业库...
+2025-06-25 13:26:01,431 - INFO - 开始爬取阳光高考专业库...
+2025-06-25 13:26:01,431 - INFO - 正在爬取 工学 类专业...
+2025-06-25 13:26:01,431 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:04,888 - INFO - 正在爬取 理学 类专业...
+2025-06-25 13:26:04,889 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:10,373 - INFO - 正在爬取 文学 类专业...
+2025-06-25 13:26:10,374 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:15,681 - INFO - 正在爬取 经济学 类专业...
+2025-06-25 13:26:15,682 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:19,984 - INFO - 正在爬取 医学 类专业...
+2025-06-25 13:26:19,985 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:23,312 - INFO - 正在爬取 其他 类专业...
+2025-06-25 13:26:23,313 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:27,590 - INFO - 专业库爬取完成，共获取 0 个专业信息
+2025-06-25 13:26:27,590 - INFO - 开始爬取历年分数线...
+2025-06-25 13:26:27,591 - INFO - 开始爬取 2020 年 北京 的历年分数线...
+2025-06-25 13:26:27,591 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:27,765 - ERROR - 北京-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=11
+2025-06-25 13:26:27,765 - INFO - 开始爬取 2020 年 上海 的历年分数线...
+2025-06-25 13:26:27,766 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:27,982 - ERROR - 上海-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=31
+2025-06-25 13:26:27,983 - INFO - 开始爬取 2020 年 广东 的历年分数线...
+2025-06-25 13:26:27,983 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:28,074 - ERROR - 广东-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=44
+2025-06-25 13:26:28,075 - INFO - 开始爬取 2020 年 江苏 的历年分数线...
+2025-06-25 13:26:28,075 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:28,254 - ERROR - 江苏-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=32
+2025-06-25 13:26:28,255 - INFO - 开始爬取 2020 年 浙江 的历年分数线...
+2025-06-25 13:26:28,255 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:28,454 - ERROR - 浙江-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=33
+2025-06-25 13:26:28,455 - INFO - 开始爬取 2020 年 山东 的历年分数线...
+2025-06-25 13:26:28,455 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:28,550 - ERROR - 山东-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=37
+2025-06-25 13:26:28,551 - INFO - 开始爬取 2020 年 河南 的历年分数线...
+2025-06-25 13:26:28,551 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:28,665 - ERROR - 河南-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=41
+2025-06-25 13:26:28,666 - INFO - 开始爬取 2020 年 四川 的历年分数线...
+2025-06-25 13:26:28,666 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:28,763 - ERROR - 四川-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=51
+2025-06-25 13:26:28,764 - INFO - 开始爬取 2020 年 湖北 的历年分数线...
+2025-06-25 13:26:28,764 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:28,964 - ERROR - 湖北-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=42
+2025-06-25 13:26:28,964 - INFO - 开始爬取 2020 年 湖南 的历年分数线...
+2025-06-25 13:26:28,965 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:29,086 - ERROR - 湖南-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=43
+2025-06-25 13:26:29,086 - INFO - 开始爬取 2021 年 北京 的历年分数线...
+2025-06-25 13:26:29,087 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:29,199 - ERROR - 北京-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=11
+2025-06-25 13:26:29,199 - INFO - 开始爬取 2021 年 上海 的历年分数线...
+2025-06-25 13:26:29,199 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:29,295 - ERROR - 上海-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=31
+2025-06-25 13:26:29,295 - INFO - 开始爬取 2021 年 广东 的历年分数线...
+2025-06-25 13:26:29,296 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:29,412 - ERROR - 广东-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=44
+2025-06-25 13:26:29,412 - INFO - 开始爬取 2021 年 江苏 的历年分数线...
+2025-06-25 13:26:29,413 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:29,505 - ERROR - 江苏-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=32
+2025-06-25 13:26:29,506 - INFO - 开始爬取 2021 年 浙江 的历年分数线...
+2025-06-25 13:26:29,506 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:29,603 - ERROR - 浙江-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=33
+2025-06-25 13:26:29,603 - INFO - 开始爬取 2021 年 山东 的历年分数线...
+2025-06-25 13:26:29,604 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:29,712 - ERROR - 山东-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=37
+2025-06-25 13:26:29,712 - INFO - 开始爬取 2021 年 河南 的历年分数线...
+2025-06-25 13:26:29,712 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:29,828 - ERROR - 河南-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=41
+2025-06-25 13:26:29,829 - INFO - 开始爬取 2021 年 四川 的历年分数线...
+2025-06-25 13:26:29,830 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:30,021 - ERROR - 四川-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=51
+2025-06-25 13:26:30,022 - INFO - 开始爬取 2021 年 湖北 的历年分数线...
+2025-06-25 13:26:30,023 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:30,142 - ERROR - 湖北-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=42
+2025-06-25 13:26:30,142 - INFO - 开始爬取 2021 年 湖南 的历年分数线...
+2025-06-25 13:26:30,143 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:30,242 - ERROR - 湖南-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=43
+2025-06-25 13:26:30,242 - INFO - 开始爬取 2022 年 北京 的历年分数线...
+2025-06-25 13:26:30,242 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:30,352 - ERROR - 北京-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=11
+2025-06-25 13:26:30,353 - INFO - 开始爬取 2022 年 上海 的历年分数线...
+2025-06-25 13:26:30,354 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:30,463 - ERROR - 上海-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=31
+2025-06-25 13:26:30,463 - INFO - 开始爬取 2022 年 广东 的历年分数线...
+2025-06-25 13:26:30,464 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:30,582 - ERROR - 广东-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=44
+2025-06-25 13:26:30,582 - INFO - 开始爬取 2022 年 江苏 的历年分数线...
+2025-06-25 13:26:30,582 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:30,695 - ERROR - 江苏-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=32
+2025-06-25 13:26:30,696 - INFO - 开始爬取 2022 年 浙江 的历年分数线...
+2025-06-25 13:26:30,696 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:30,807 - ERROR - 浙江-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=33
+2025-06-25 13:26:30,808 - INFO - 开始爬取 2022 年 山东 的历年分数线...
+2025-06-25 13:26:30,808 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:30,898 - ERROR - 山东-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=37
+2025-06-25 13:26:30,899 - INFO - 开始爬取 2022 年 河南 的历年分数线...
+2025-06-25 13:26:30,899 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:31,020 - ERROR - 河南-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=41
+2025-06-25 13:26:31,020 - INFO - 开始爬取 2022 年 四川 的历年分数线...
+2025-06-25 13:26:31,021 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:31,116 - ERROR - 四川-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=51
+2025-06-25 13:26:31,117 - INFO - 开始爬取 2022 年 湖北 的历年分数线...
+2025-06-25 13:26:31,117 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:31,235 - ERROR - 湖北-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=42
+2025-06-25 13:26:31,236 - INFO - 开始爬取 2022 年 湖南 的历年分数线...
+2025-06-25 13:26:31,236 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:31,353 - ERROR - 湖南-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=43
+2025-06-25 13:26:31,354 - INFO - 开始爬取 2023 年 北京 的历年分数线...
+2025-06-25 13:26:31,354 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:31,472 - ERROR - 北京-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=11
+2025-06-25 13:26:31,473 - INFO - 开始爬取 2023 年 上海 的历年分数线...
+2025-06-25 13:26:31,473 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:31,582 - ERROR - 上海-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=31
+2025-06-25 13:26:31,582 - INFO - 开始爬取 2023 年 广东 的历年分数线...
+2025-06-25 13:26:31,582 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:31,704 - ERROR - 广东-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=44
+2025-06-25 13:26:31,705 - INFO - 开始爬取 2023 年 江苏 的历年分数线...
+2025-06-25 13:26:31,705 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:31,832 - ERROR - 江苏-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=32
+2025-06-25 13:26:31,833 - INFO - 开始爬取 2023 年 浙江 的历年分数线...
+2025-06-25 13:26:31,833 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:31,946 - ERROR - 浙江-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=33
+2025-06-25 13:26:31,947 - INFO - 开始爬取 2023 年 山东 的历年分数线...
+2025-06-25 13:26:31,948 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:32,041 - ERROR - 山东-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=37
+2025-06-25 13:26:32,042 - INFO - 开始爬取 2023 年 河南 的历年分数线...
+2025-06-25 13:26:32,042 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:32,151 - ERROR - 河南-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=41
+2025-06-25 13:26:32,151 - INFO - 开始爬取 2023 年 四川 的历年分数线...
+2025-06-25 13:26:32,152 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:32,269 - ERROR - 四川-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=51
+2025-06-25 13:26:32,269 - INFO - 开始爬取 2023 年 湖北 的历年分数线...
+2025-06-25 13:26:32,269 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:32,495 - ERROR - 湖北-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=42
+2025-06-25 13:26:32,496 - INFO - 开始爬取 2023 年 湖南 的历年分数线...
+2025-06-25 13:26:32,496 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:32,607 - ERROR - 湖南-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=43
+2025-06-25 13:26:32,607 - INFO - 开始爬取招生章程...
+2025-06-25 13:26:32,607 - INFO - 开始爬取院校ID 1 的招生章程...
+2025-06-25 13:26:32,607 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:32,730 - ERROR - 爬取院校ID 1 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=1
+2025-06-25 13:26:32,731 - INFO - 开始爬取院校ID 2 的招生章程...
+2025-06-25 13:26:32,731 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:32,834 - ERROR - 爬取院校ID 2 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=2
+2025-06-25 13:26:32,835 - INFO - 开始爬取院校ID 3 的招生章程...
+2025-06-25 13:26:32,835 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:32,963 - ERROR - 爬取院校ID 3 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=3
+2025-06-25 13:26:32,963 - INFO - 开始爬取院校ID 4 的招生章程...
+2025-06-25 13:26:32,964 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:33,071 - ERROR - 爬取院校ID 4 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=4
+2025-06-25 13:26:33,072 - INFO - 开始爬取院校ID 5 的招生章程...
+2025-06-25 13:26:33,072 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:33,189 - ERROR - 爬取院校ID 5 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=5
+2025-06-25 13:26:33,189 - INFO - 开始爬取院校ID 6 的招生章程...
+2025-06-25 13:26:33,190 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:33,300 - ERROR - 爬取院校ID 6 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=6
+2025-06-25 13:26:33,301 - INFO - 开始爬取院校ID 7 的招生章程...
+2025-06-25 13:26:33,301 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:33,508 - ERROR - 爬取院校ID 7 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=7
+2025-06-25 13:26:33,509 - INFO - 开始爬取院校ID 8 的招生章程...
+2025-06-25 13:26:33,509 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:33,625 - ERROR - 爬取院校ID 8 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=8
+2025-06-25 13:26:33,625 - INFO - 开始爬取院校ID 9 的招生章程...
+2025-06-25 13:26:33,626 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:33,731 - ERROR - 爬取院校ID 9 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=9
+2025-06-25 13:26:33,732 - INFO - 开始爬取院校ID 10 的招生章程...
+2025-06-25 13:26:33,732 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:26:33,857 - ERROR - 爬取院校ID 10 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=10
+2025-06-25 13:26:33,858 - INFO - 阳光高考平台数据爬取完成。
+2025-06-25 13:26:33,858 - INFO - 启动省级考试院数据爬取...
+2025-06-25 13:26:33,858 - INFO - 省级考试院数据爬取完成。
+2025-06-25 13:26:33,858 - INFO - 加载第三方数据集...
+2025-06-25 13:26:33,858 - INFO - 第三方数据集加载完成。
+2025-06-25 13:26:33,858 - INFO - 【阶段1】原始数据爬取完成。
+2025-06-25 13:26:33,858 - INFO - 【阶段2】开始清洗与合并数据...
+2025-06-25 13:26:33,858 - INFO - 开始数据清洗与合并...
+2025-06-25 13:26:33,861 - INFO - 开始合并数据集...
+2025-06-25 13:26:33,861 - INFO - 开始标准化字段: school
+2025-06-25 13:26:33,862 - ERROR - 标准化字段 school 时出错: 'school'
+2025-06-25 13:26:33,862 - INFO - 开始标准化字段: school
+2025-06-25 13:26:33,862 - ERROR - 标准化字段 school 时出错: 'school'
+2025-06-25 13:26:33,864 - INFO - 数据集合并完成，最终数据量: 0 条记录
+2025-06-25 13:26:33,864 - INFO - 开始数据验证...
+2025-06-25 13:26:33,864 - INFO - 数据验证完成: {'total_records': 0, 'missing_values': {}, 'invalid_scores': 0, 'invalid_years': 0, 'duplicates': np.int64(0)}
+2025-06-25 13:26:33,864 - INFO - 数据验证结果: {'total_records': 0, 'missing_values': {}, 'invalid_scores': 0, 'invalid_years': 0, 'duplicates': np.int64(0)}
+2025-06-25 13:26:33,864 - INFO - 数据清洗与合并完成。
+2025-06-25 13:26:33,864 - INFO - 【阶段2】数据清洗与合并完成。
+2025-06-25 13:26:33,864 - INFO - 【阶段3】开始结构化存储数据...
+2025-06-25 13:26:33,864 - ERROR - 【阶段3】没有数据可保存
+2025-06-25 13:26:33,864 - INFO - ==================================================
+2025-06-25 13:26:33,864 - INFO - 所有任务执行完毕
+2025-06-25 13:26:33,864 - INFO - ==================================================
+2025-06-25 13:27:41,763 - INFO - ==================================================
+2025-06-25 13:27:41,763 - INFO - 高考数据采集与清洗流程启动
+2025-06-25 13:27:41,763 - INFO - ==================================================
+2025-06-25 13:27:41,763 - INFO - 【阶段1】开始爬取原始数据...
+2025-06-25 13:27:41,763 - INFO - 启动阳光高考平台数据爬取...
+2025-06-25 13:27:41,763 - INFO - 开始爬取院校库...
+2025-06-25 13:27:41,763 - INFO - 开始爬取阳光高考院校库...
+2025-06-25 13:27:41,763 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:27:41,763 - INFO - 正在爬取第 1 页院校数据...
+2025-06-25 13:27:41,985 - INFO - 第 1 页未找到院校数据，可能已到达最后一页
+2025-06-25 13:27:41,985 - INFO - 院校库爬取完成，共获取 0 所院校信息
+2025-06-25 13:27:41,986 - INFO - 开始爬取专业库...
+2025-06-25 13:27:41,986 - INFO - 开始爬取阳光高考专业库...
+2025-06-25 13:27:41,986 - INFO - 正在爬取 工学 类专业...
+2025-06-25 13:27:41,986 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:27:45,382 - INFO - 正在爬取 理学 类专业...
+2025-06-25 13:27:45,382 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:27:49,766 - INFO - 正在爬取 文学 类专业...
+2025-06-25 13:27:49,766 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:27:55,079 - INFO - 正在爬取 经济学 类专业...
+2025-06-25 13:27:55,079 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:27:59,497 - INFO - 正在爬取 医学 类专业...
+2025-06-25 13:27:59,498 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:04,885 - INFO - 正在爬取 其他 类专业...
+2025-06-25 13:28:04,886 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:08,175 - INFO - 专业库爬取完成，共获取 0 个专业信息
+2025-06-25 13:28:08,176 - INFO - 开始爬取历年分数线...
+2025-06-25 13:28:08,176 - INFO - 开始爬取 2020 年 北京 的历年分数线...
+2025-06-25 13:28:08,176 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:08,287 - ERROR - 北京-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=11
+2025-06-25 13:28:08,288 - INFO - 开始爬取 2020 年 上海 的历年分数线...
+2025-06-25 13:28:08,288 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:08,392 - ERROR - 上海-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=31
+2025-06-25 13:28:08,393 - INFO - 开始爬取 2020 年 广东 的历年分数线...
+2025-06-25 13:28:08,393 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:08,513 - ERROR - 广东-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=44
+2025-06-25 13:28:08,514 - INFO - 开始爬取 2020 年 江苏 的历年分数线...
+2025-06-25 13:28:08,514 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:08,634 - ERROR - 江苏-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=32
+2025-06-25 13:28:08,635 - INFO - 开始爬取 2020 年 浙江 的历年分数线...
+2025-06-25 13:28:08,635 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:08,738 - ERROR - 浙江-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=33
+2025-06-25 13:28:08,739 - INFO - 开始爬取 2020 年 山东 的历年分数线...
+2025-06-25 13:28:08,739 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:08,833 - ERROR - 山东-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=37
+2025-06-25 13:28:08,834 - INFO - 开始爬取 2020 年 河南 的历年分数线...
+2025-06-25 13:28:08,834 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:08,934 - ERROR - 河南-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=41
+2025-06-25 13:28:08,935 - INFO - 开始爬取 2020 年 四川 的历年分数线...
+2025-06-25 13:28:08,935 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:09,054 - ERROR - 四川-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=51
+2025-06-25 13:28:09,054 - INFO - 开始爬取 2020 年 湖北 的历年分数线...
+2025-06-25 13:28:09,055 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:09,168 - ERROR - 湖北-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=42
+2025-06-25 13:28:09,168 - INFO - 开始爬取 2020 年 湖南 的历年分数线...
+2025-06-25 13:28:09,169 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:09,389 - ERROR - 湖南-2020 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2020&ssdm=43
+2025-06-25 13:28:09,390 - INFO - 开始爬取 2021 年 北京 的历年分数线...
+2025-06-25 13:28:09,390 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:09,508 - ERROR - 北京-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=11
+2025-06-25 13:28:09,509 - INFO - 开始爬取 2021 年 上海 的历年分数线...
+2025-06-25 13:28:09,510 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:09,616 - ERROR - 上海-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=31
+2025-06-25 13:28:09,617 - INFO - 开始爬取 2021 年 广东 的历年分数线...
+2025-06-25 13:28:09,617 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:09,748 - ERROR - 广东-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=44
+2025-06-25 13:28:09,748 - INFO - 开始爬取 2021 年 江苏 的历年分数线...
+2025-06-25 13:28:09,748 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:09,860 - ERROR - 江苏-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=32
+2025-06-25 13:28:09,861 - INFO - 开始爬取 2021 年 浙江 的历年分数线...
+2025-06-25 13:28:09,861 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:09,971 - ERROR - 浙江-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=33
+2025-06-25 13:28:09,972 - INFO - 开始爬取 2021 年 山东 的历年分数线...
+2025-06-25 13:28:09,972 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:10,094 - ERROR - 山东-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=37
+2025-06-25 13:28:10,094 - INFO - 开始爬取 2021 年 河南 的历年分数线...
+2025-06-25 13:28:10,094 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:10,209 - ERROR - 河南-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=41
+2025-06-25 13:28:10,210 - INFO - 开始爬取 2021 年 四川 的历年分数线...
+2025-06-25 13:28:10,210 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:10,398 - ERROR - 四川-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=51
+2025-06-25 13:28:10,398 - INFO - 开始爬取 2021 年 湖北 的历年分数线...
+2025-06-25 13:28:10,399 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:10,506 - ERROR - 湖北-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=42
+2025-06-25 13:28:10,507 - INFO - 开始爬取 2021 年 湖南 的历年分数线...
+2025-06-25 13:28:10,507 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:10,608 - ERROR - 湖南-2021 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2021&ssdm=43
+2025-06-25 13:28:10,608 - INFO - 开始爬取 2022 年 北京 的历年分数线...
+2025-06-25 13:28:10,608 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:10,715 - ERROR - 北京-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=11
+2025-06-25 13:28:10,716 - INFO - 开始爬取 2022 年 上海 的历年分数线...
+2025-06-25 13:28:10,716 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:10,837 - ERROR - 上海-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=31
+2025-06-25 13:28:10,838 - INFO - 开始爬取 2022 年 广东 的历年分数线...
+2025-06-25 13:28:10,838 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:10,946 - ERROR - 广东-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=44
+2025-06-25 13:28:10,946 - INFO - 开始爬取 2022 年 江苏 的历年分数线...
+2025-06-25 13:28:10,947 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:11,065 - ERROR - 江苏-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=32
+2025-06-25 13:28:11,065 - INFO - 开始爬取 2022 年 浙江 的历年分数线...
+2025-06-25 13:28:11,066 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:11,265 - ERROR - 浙江-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=33
+2025-06-25 13:28:11,265 - INFO - 开始爬取 2022 年 山东 的历年分数线...
+2025-06-25 13:28:11,265 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:11,384 - ERROR - 山东-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=37
+2025-06-25 13:28:11,384 - INFO - 开始爬取 2022 年 河南 的历年分数线...
+2025-06-25 13:28:11,385 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:11,492 - ERROR - 河南-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=41
+2025-06-25 13:28:11,493 - INFO - 开始爬取 2022 年 四川 的历年分数线...
+2025-06-25 13:28:11,493 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:11,582 - ERROR - 四川-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=51
+2025-06-25 13:28:11,583 - INFO - 开始爬取 2022 年 湖北 的历年分数线...
+2025-06-25 13:28:11,583 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:11,691 - ERROR - 湖北-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=42
+2025-06-25 13:28:11,691 - INFO - 开始爬取 2022 年 湖南 的历年分数线...
+2025-06-25 13:28:11,692 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:11,832 - ERROR - 湖南-2022 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2022&ssdm=43
+2025-06-25 13:28:11,833 - INFO - 开始爬取 2023 年 北京 的历年分数线...
+2025-06-25 13:28:11,833 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:12,028 - ERROR - 北京-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=11
+2025-06-25 13:28:12,029 - INFO - 开始爬取 2023 年 上海 的历年分数线...
+2025-06-25 13:28:12,029 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:12,131 - ERROR - 上海-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=31
+2025-06-25 13:28:12,132 - INFO - 开始爬取 2023 年 广东 的历年分数线...
+2025-06-25 13:28:12,132 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:12,242 - ERROR - 广东-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=44
+2025-06-25 13:28:12,242 - INFO - 开始爬取 2023 年 江苏 的历年分数线...
+2025-06-25 13:28:12,243 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:12,355 - ERROR - 江苏-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=32
+2025-06-25 13:28:12,355 - INFO - 开始爬取 2023 年 浙江 的历年分数线...
+2025-06-25 13:28:12,355 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:12,481 - ERROR - 浙江-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=33
+2025-06-25 13:28:12,482 - INFO - 开始爬取 2023 年 山东 的历年分数线...
+2025-06-25 13:28:12,482 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:12,627 - ERROR - 山东-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=37
+2025-06-25 13:28:12,628 - INFO - 开始爬取 2023 年 河南 的历年分数线...
+2025-06-25 13:28:12,629 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:12,734 - ERROR - 河南-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=41
+2025-06-25 13:28:12,735 - INFO - 开始爬取 2023 年 四川 的历年分数线...
+2025-06-25 13:28:12,735 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:12,944 - ERROR - 四川-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=51
+2025-06-25 13:28:12,945 - INFO - 开始爬取 2023 年 湖北 的历年分数线...
+2025-06-25 13:28:12,945 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:13,055 - ERROR - 湖北-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=42
+2025-06-25 13:28:13,056 - INFO - 开始爬取 2023 年 湖南 的历年分数线...
+2025-06-25 13:28:13,056 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:13,160 - ERROR - 湖南-2023 分数线爬取失败: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/lqfs/search.do?year=2023&ssdm=43
+2025-06-25 13:28:13,160 - INFO - 开始爬取招生章程...
+2025-06-25 13:28:13,160 - INFO - 开始爬取院校ID 1 的招生章程...
+2025-06-25 13:28:13,161 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:13,281 - ERROR - 爬取院校ID 1 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=1
+2025-06-25 13:28:13,282 - INFO - 开始爬取院校ID 2 的招生章程...
+2025-06-25 13:28:13,282 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:13,479 - ERROR - 爬取院校ID 2 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=2
+2025-06-25 13:28:13,480 - INFO - 开始爬取院校ID 3 的招生章程...
+2025-06-25 13:28:13,480 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:13,602 - ERROR - 爬取院校ID 3 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=3
+2025-06-25 13:28:13,602 - INFO - 开始爬取院校ID 4 的招生章程...
+2025-06-25 13:28:13,603 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:13,831 - ERROR - 爬取院校ID 4 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=4
+2025-06-25 13:28:13,832 - INFO - 开始爬取院校ID 5 的招生章程...
+2025-06-25 13:28:13,833 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:14,031 - ERROR - 爬取院校ID 5 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=5
+2025-06-25 13:28:14,031 - INFO - 开始爬取院校ID 6 的招生章程...
+2025-06-25 13:28:14,032 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:14,155 - ERROR - 爬取院校ID 6 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=6
+2025-06-25 13:28:14,156 - INFO - 开始爬取院校ID 7 的招生章程...
+2025-06-25 13:28:14,156 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:14,262 - ERROR - 爬取院校ID 7 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=7
+2025-06-25 13:28:14,263 - INFO - 开始爬取院校ID 8 的招生章程...
+2025-06-25 13:28:14,263 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:14,375 - ERROR - 爬取院校ID 8 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=8
+2025-06-25 13:28:14,376 - INFO - 开始爬取院校ID 9 的招生章程...
+2025-06-25 13:28:14,376 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:14,482 - ERROR - 爬取院校ID 9 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=9
+2025-06-25 13:28:14,482 - INFO - 开始爬取院校ID 10 的招生章程...
+2025-06-25 13:28:14,483 - WARNING - Unable to find local data/jsonl file using importlib-resources.
+Traceback (most recent call last):
+  File "fake_useragent/utils.py", line 54, in find_browser_json_path
+  File "importlib/resources/_common.py", line 46, in wrapper
+  File "importlib/resources/_common.py", line 56, in files
+  File "functools.py", line 934, in wrapper
+  File "importlib/resources/_common.py", line 82, in _
+  File "importlib/__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'fake_useragent.data'
+2025-06-25 13:28:14,614 - ERROR - 爬取院校ID 10 招生章程时出错: 404 Client Error: Not Found for url: https://gaokao.chsi.com.cn/zsgs/zhangcheng/list.do?schoolid=10
+2025-06-25 13:28:14,615 - INFO - 阳光高考平台数据爬取完成。
+2025-06-25 13:28:14,615 - INFO - 启动省级考试院数据爬取...
+2025-06-25 13:28:14,615 - INFO - 省级考试院数据爬取完成。
+2025-06-25 13:28:14,615 - INFO - 加载第三方数据集...
+2025-06-25 13:28:14,615 - INFO - 第三方数据集加载完成。
+2025-06-25 13:28:14,615 - INFO - 【阶段1】原始数据爬取完成。
+2025-06-25 13:28:14,615 - INFO - 【阶段2】开始清洗与合并数据...
+2025-06-25 13:28:14,615 - INFO - 开始数据清洗与合并...
+2025-06-25 13:28:14,617 - INFO - 开始合并数据集...
+2025-06-25 13:28:14,617 - INFO - 开始标准化字段: school
+2025-06-25 13:28:14,617 - ERROR - 标准化字段 school 时出错: 'school'
+2025-06-25 13:28:14,617 - INFO - 开始标准化字段: school
+2025-06-25 13:28:14,618 - ERROR - 标准化字段 school 时出错: 'school'
+2025-06-25 13:28:14,619 - INFO - 数据集合并完成，最终数据量: 0 条记录
+2025-06-25 13:28:14,619 - INFO - 开始数据验证...
+2025-06-25 13:28:14,619 - INFO - 数据验证完成: {'total_records': 0, 'missing_values': {}, 'invalid_scores': 0, 'invalid_years': 0, 'duplicates': np.int64(0)}
+2025-06-25 13:28:14,619 - INFO - 数据验证结果: {'total_records': 0, 'missing_values': {}, 'invalid_scores': 0, 'invalid_years': 0, 'duplicates': np.int64(0)}
+2025-06-25 13:28:14,619 - INFO - 数据清洗与合并完成。
+2025-06-25 13:28:14,619 - INFO - 【阶段2】数据清洗与合并完成。
+2025-06-25 13:28:14,619 - INFO - 【阶段3】开始结构化存储数据...
+2025-06-25 13:28:14,619 - ERROR - 【阶段3】没有数据可保存
+2025-06-25 13:28:14,619 - INFO - ==================================================
+2025-06-25 13:28:14,619 - INFO - 所有任务执行完毕
+2025-06-25 13:28:14,619 - INFO - ==================================================
